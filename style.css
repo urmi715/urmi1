@@ -21,22 +21,7 @@ nav .nItem{
 nav .navBar{
   width: 60%;
 }
-.btn1{
-  padding: 20px 30px;
-  background-color: navy;
-  border: 1px solid navy;
-  border-radius: 20px;
-  color: white;
-  margin-top: 10px;
-  transition: .5s ease-in-out;
-}
-.btn1:hover{
-  background-color: transparent;
-  color: navy;
-}
-nav .about{
-  width: 20%;
-}
+
 
 .overlayPart{
     display: flex;
