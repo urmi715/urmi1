@@ -23,8 +23,7 @@ next2.addEventListener('click',function(){
     part1.style.display = 'none'
     part3.style.display = 'none'
     part4.style.display = 'none'
-    next2.style.backgroundColor = 'transparent'
-    next2.style.color = 'navy'
+   
 })
 next3.addEventListener('click',function(){
     part3.style.display = 'block'
