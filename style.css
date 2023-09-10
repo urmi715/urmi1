@@ -2,6 +2,9 @@
 ul{
   list-style: none;
 }
+section{
+  margin-top: 80px;
+}
 a{
   text-decoration: none;
 }
@@ -79,11 +82,11 @@ ul li:hover{
 .waviy span {
   position: relative;
   display: inline-block;
-  font-size: 40px;
+  font-size: 26px;
  
   font-family: Playfair Display, serif;
   
-  background: #d6c506;
+  background: #2f3000;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   
@@ -98,32 +101,65 @@ ul li:hover{
 }
 
 
-/* ====================
-
-=====Photo part start=========
-
-==============================*/
-.row{
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
+/* =================================================================
+            Photo part start
+====================================================================*/
+.next{
+  display: none;
+  justify-content: center;
+}
+.next button{
+  
+  width: 20px;
+  border: 1px solid navy;
+  padding: 20px 30px;
+  border-radius: 50%;
+  background-color: navy;
+  color: white;
+  transition: .6s ease;
+  margin: 2px;
+  justify-content: center;
+  
+}
+.next button:hover{
+  background-color: transparent;
+  color: navy;
 }
 
-
-.column{
-  display: flex;
-  height: 100vh;
-  flex-wrap: wrap;
-  flex: 50%;
-  padding: 0 4px;
+.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
 }
 
-.column img{
-  margin-top: 8px;
-  vertical-align: middle;
+.gallery:hover {
+  border: 1px solid #777;
 }
 
-/* ====================
-=====Photo part endt=========
+.gallery img {
+  width: 100%;
+  height: auto;
 
-==============================*/
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+main .part1{
+  display: none;
+}
+main .part2{
+  display: none;
+}
+main .part3{
+  display: none;
+}
+main .part4{
+  display: none;
+}
+/* ================================================================
+Photo part end
+===================================================================*/
