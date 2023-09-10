@@ -19,7 +19,7 @@ nav .nItem{
   justify-content: center;
 }
 nav .navBar{
-  width: 60%;
+  width: 70%;
 }
 
 
@@ -31,6 +31,13 @@ nav .navBar{
   position: relative;
   width: 50%;
   max-width: 300px;
+}
+nav ul li{
+  font-size: 24px;
+  font: Playfair Display, serif;
+}
+ul li:hover{
+ color: rgb(7, 7, 158);
 }
 
 /* Make the image to responsive */
@@ -63,3 +70,60 @@ nav .navBar{
   border-radius: 10px;
 
 }
+
+.waviy {
+  position: relative;
+  width: 30%;
+  left: 0px;
+}
+.waviy span {
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+ 
+  font-family: Playfair Display, serif;
+  
+  background: #d6c506;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  /* text-transform: uppercase; */
+  animation: flip 2s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+  0%,50% {
+    transform: rotateY(360deg) 
+  }
+}
+
+
+/* ====================
+
+=====Photo part start=========
+
+==============================*/
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+
+.column{
+  display: flex;
+  height: 100vh;
+  flex-wrap: wrap;
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img{
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* ====================
+=====Photo part endt=========
+
+==============================*/
