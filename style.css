@@ -1,6 +1,44 @@
 * {box-sizing: border-box}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+nav{
+  position: sticky;
+  display: flex;
+}
+nav .logo{
+  width: 20%;
+}
 
-section{
+nav .nItem{
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+nav .navBar{
+  width: 60%;
+}
+.btn1{
+  padding: 20px 30px;
+  background-color: navy;
+  border: 1px solid navy;
+  border-radius: 20px;
+  color: white;
+  margin-top: 10px;
+  transition: .5s ease-in-out;
+}
+.btn1:hover{
+  background-color: transparent;
+  color: navy;
+}
+nav .about{
+  width: 20%;
+}
+
+.overlayPart{
     display: flex;
     gap: 5px;
 }
