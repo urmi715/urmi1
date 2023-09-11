@@ -8,6 +8,9 @@ section{
 a{
   text-decoration: none;
 }
+/* ================================================================
+                Nav Start
+===================================================================*/
 nav{
   position: sticky;
   display: flex;
@@ -101,6 +104,10 @@ ul li:hover{
 }
 
 
+
+/* ================================================================
+                Nav End
+===================================================================*/
 /* =================================================================
             Photo part start
 ====================================================================*/
@@ -109,6 +116,17 @@ ul li:hover{
   display: none;
   padding: 0 20px;
   border-radius: 50% 0 0 50%;
+  border: 1.5px solid green;
+  background-color: green;
+  color: yellow;
+  transition: .5s ease;
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 18px;
+}
+.p12:hover{
+  background-color: transparent;
+  color: green;
 }
 .next{
   display: none;
@@ -219,17 +237,63 @@ main .part5c{display: none;}
 .n12{
   display: none;
   padding: 0 20px;
-  border-radius: 0 50% 50% 0;
+ 
+  border: 1.5px solid green;
+  background-color: green;
+  color: yellow;
+  transition: .5s ease;
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 18px;
+  border-radius: 0 100% 100% 0;
+}
+.n12:hover{
+  background-color: transparent;
+  color: green;
 }
 
 /* ================================================================
 Photo part end
 ===================================================================*/
+
+
 /* ================================================================
 wellcome part Start
 ===================================================================*/
 
+  .text{
+    text-align: center;
+  }
 
+
+ .text h2{
+  border-right: solid 3px rgba(0,255,0,.75);
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Playfair Display', serif; 
+  font-size: 40px;
+  color: red;
+}
+
+/* Animation */
+h2 {
+  animation: animated-text 4s steps(29) 1s 1 normal both,
+             animated-cursor 600ms steps(29) alternate;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 472px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{}
+  to{border-right-color: transparent;}
+}
 /* ================================================================
 wellcome part end
 ===================================================================*/

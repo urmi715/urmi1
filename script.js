@@ -723,11 +723,38 @@ photo.addEventListener('click',function(){
     n12.style.display = 'inline-block'
 
  }else{
-    part1.style.display = 'none'
+   
+    p12.style.display = 'none'
+    nextN.style.display = 'none'
     photos.style.display = 'none'
     overlayPart.style.display = 'flex'
+    
     next.style.display = 'none'
     hider = true
+    part1.style.display = 'none'
+    part1a.style.display = 'none'
+    part1b.style.display = 'none'
+    part1c.style.display = 'none'
+    part1d.style.display = 'none'
+    part2.style.display = 'none'
+    part2a.style.display = 'none'
+    part2b.style.display = 'none'
+    part2c.style.display = 'none'
+    part2d.style.display = 'none'
+    part3.style.display = 'none'
+    part3a.style.display = 'none'
+    part3b.style.display = 'none'
+    part3c.style.display = 'none'
+    part3d.style.display = 'none'
+    part4.style.display = 'none'
+    part4a.style.display = 'none'
+    part4b.style.display = 'none'
+    part4c.style.display = 'none'
+    part4d.style.display = 'none'
+    part5.style.display = 'none'
+    part5a.style.display = 'none'
+    part5b.style.display = 'none'
+    part5c.style.display = 'none'
  }
 })
 
