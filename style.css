@@ -104,15 +104,41 @@ ul li:hover{
 /* =================================================================
             Photo part start
 ====================================================================*/
+
+.p12{
+  display: none;
+  padding: 0 20px;
+  border-radius: 50% 0 0 50%;
+}
 .next{
   display: none;
   justify-content: center;
 }
+.arrow{
+  display: flex;
+}
 .next button{
-  
+  display: flex;
   width: 20px;
   border: 1px solid navy;
-  padding: 20px 30px;
+  padding:15px;
+  border-radius: 50%;
+  background-color: navy;
+  color: white;
+  transition: .6s ease;
+  margin: 2px;
+  justify-content: center;
+  
+}
+.nextN{
+  display: none;
+  justify-content: center;
+}
+.nextN button{
+  display: flex;
+  width: 20px;
+  border: 1px solid navy;
+  padding:15px;
   border-radius: 50%;
   background-color: navy;
   color: white;
@@ -122,6 +148,10 @@ ul li:hover{
   
 }
 .next button:hover{
+  background-color: transparent;
+  color: navy;
+}
+.nextN button:hover{
   background-color: transparent;
   color: navy;
 }
@@ -151,15 +181,55 @@ div.desc {
 main .part1{
   display: none;
 }
+main .part1a{display: none;}
+main .part1b{display: none;}
+main .part1c{display: none;}
+main .part1d{display: none;}
 main .part2{
   display: none;
 }
+main .part2a{display: none;}
+main .part2b{display: none;}
+main .part2c{display: none;}
+main .part2d{display: none;}
 main .part3{
   display: none;
 }
+main .part3{display: none;}
+main .part3a{display: none;}
+main .part3b{display: none;}
+main .part3c{display: none;}
+main .part3d{display: none;}
 main .part4{
   display: none;
 }
+main .part4a{display: none;}
+main .part4b{display: none;}
+main .part4c{display: none;}
+main .part4d{display: none;}
+
+main .part5{display: none;}
+main .part5a{display: none;}
+main .part5b{display: none;}
+main .part5c{display: none;}
+
+.photos{
+  display: none;
+}
+.n12{
+  display: none;
+  padding: 0 20px;
+  border-radius: 0 50% 50% 0;
+}
+
 /* ================================================================
 Photo part end
+===================================================================*/
+/* ================================================================
+wellcome part Start
+===================================================================*/
+
+
+/* ================================================================
+wellcome part end
 ===================================================================*/
