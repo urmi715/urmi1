@@ -725,6 +725,7 @@ photo.addEventListener('click',function(){
  }else{
    
     p12.style.display = 'none'
+    n12.style.display = 'none'
     nextN.style.display = 'none'
     photos.style.display = 'none'
     overlayPart.style.display = 'flex'
